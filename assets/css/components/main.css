@@ -131,3 +131,5 @@ main {
         gap: 34px;
     }
 }
+
+@media screen and (min-height: 900px) {} 
