@@ -1,0 +1,133 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    gap: 50px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 29px;
+}
+
+.user-image {
+    width: 140px;
+    height: 140px;
+}
+
+.user-image img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 4px 12px 25px var(--red-box-shadow);
+}
+
+.user-description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-description h1 {
+    font-size: 32px;
+    text-wrap: nowrap;
+    font-weight: 400;
+}
+
+.color-select {
+    position: relative;
+    gap: 16px;
+    width: 240px;
+}
+
+.color-select select {
+    appearance: none;
+    width: 240px;
+    border-radius: 12px;
+    background: #404040;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(227, 227, 227, 0.80);
+}
+
+.color-select img {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    right: 19px;
+    top: 5px;
+}
+
+
+/* SOCIALS */
+.socials ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.socials ul li {
+    border-radius: 8px;
+    background: #404040;
+    box-shadow: 0px 4px 15px 0px var(--red-button-box-shadow);
+
+    height: 60px;
+    max-width: 600px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.socials li div {
+    position: relative;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials #twitter-icon {
+    position: absolute;
+    left: 35px;
+}
+
+.socials #twitter-icon ~ a {
+    margin-left: 50px;
+}
+
+.socials li a {
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        min-height: calc(100vh - 98px);
+    }
+
+    .user-description {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .user-info {
+        margin-top: 70px;
+        gap: 78px;
+    }
+
+    .socials ul {
+        gap: 34px;
+    }
+}

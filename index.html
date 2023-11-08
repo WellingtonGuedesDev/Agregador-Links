@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregador de Links</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/controler/container.css">
+    <link rel="stylesheet" href="/assets/css/components/main.css">
+    <link rel="stylesheet" href="/assets/css/components/footer.css">
+</head>
+<body>
+    <main class="container">
+        <div class="user-info">
+            <div class="user-image">
+                <img src="./assets/images/user.png" id="imageUser" alt="Imagem do usuario">
+            </div>           
+ 
+            <div class="user-description">
+                <h1>Wellington</h1>
+                
+                <div class="color-select">
+                    <img src="./assets/images/Vector.svg" alt="">
+                    <select name="colors" id="colors">
+                        <option value="vermelho">Selecione uma cor</option>
+                        <option value="azul">azul</option>
+                        <option value="verde">verde</option>
+                        <option value="magenta">magenta</option>
+                        <option value="roxo">roxo</option>
+                        <option value="amarelo">amarelo</option>
+                        <option value="vermelho">vermelho</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <nav class="socials">
+            <ul>
+                <li class="list-item">
+                    <div>
+                        <img src="/assets/images//social-icons/instagram-icon.svg" id="instagram-icon" alt="Link para o Instagram">
+                        <a href="#" target="_blank">
+                            Instagram
+                        </a>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div>
+                        <img src="/assets/images//social-icons/facebook.svg" id="facebook-icon" alt="Link para o Facebook">
+                        <a href="#" target="_blank">
+                            Facebook
+                        </a>
+                    </div>
+                    
+                </li>
+                <li class="list-item" id="list-icon-twitter">
+                    <div>
+                        <img src="/assets/images//social-icons/twiter.svg" id="twitter-icon" alt="Link para o Twitter">
+                        <a href="#" target="_blank">
+                            Twitter
+                        </a>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div>
+                        <img src="/assets/images//social-icons/whatsapp.svg" id="whatsapp-icon alt="Link para o Whatsapp">
+                        <a href="#" target="_blank">
+                            whatsapp
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </main>
+
+    <footer>
+        <nav class="nav-footer">
+            <p>Feito por <u>wellington</u></p>
+            
+            <ul>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="/assets/images//social-icons/dev.svg" alt="Link para o ...">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="/assets/images//social-icons/linkedin.svg" alt="Link para o Linkedin">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/WellingtonGuedesDev" target="_blank">
+                        <img src="/assets/images//social-icons/github.svg" alt="Link para o Github">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="./assets/js/dinamic-color.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+:root {
+    /* IMAGE BOX SHADOW */
+    --red-box-shadow: rgba(255, 45, 45, 0.10);
+    --yellow-box-shadow: rgba(255, 209, 45, 0.10);
+    --blue-box-shadow: rgba(45, 104, 255, 0.10);
+    --green-box-shadow: rgba(112, 255, 45, 0.10);
+    --purple-box-shadow: rgba(137, 45, 255, 0.10);
+    --magenta-box-shadow: rgba(255, 45, 183, 0.10);
+
+    /* BUTTON BOX SHADOW */
+    --red-button-box-shadow: rgba(255, 45, 45, 0.50);
+    --yellow-button-box-shadow: rgba(255, 209, 45, 0.50);
+    --blue-button-box-shadow: rgba(45, 104, 255, 0.50);
+    --green-button-box-shadow: rgba(112, 255, 45, 0.50);
+    --purple-button-box-shadow: rgba(137, 45, 255, 0.50);
+    --magenta-button-box-shadow: rgba(255, 45, 183, 0.50);
+
+    /* FOOTER BOX SHADOW */
+    --red-footer-box-shadow: rgba(255, 45, 45, 0.25);
+    --yellow-footer-box-shadow: rgba(255, 209, 45, 0.25);
+    --blue-footer-box-shadow: rgba(45, 104, 255, 0.25);
+    --green-footer-box-shadow: rgba(112, 255, 45, 0.25);
+    --purple-footer-box-shadow: rgba(137, 45, 255, 0.25);
+    --magenta-footer-box-shadow: rgba(255, 45, 183, 0.25);
+
+}
